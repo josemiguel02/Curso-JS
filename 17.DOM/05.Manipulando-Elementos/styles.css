@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 3rem;
+  color: #fff;
+  font-family: 'Roboto';
+  background-color: rgb(25, 25, 65);
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+button {
+  border: 2px solid transparent;
+  padding: 0.8rem 2rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: #272727;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: gold;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  transition-property: color, background-color, border-color;
+}
+
+button:hover {
+  color: gold;
+  background-color: #fff1;
+  border-color: gold;
+}
+
+button:active {
+  outline: 2px solid gold;
+  outline-offset: 3px;
+}

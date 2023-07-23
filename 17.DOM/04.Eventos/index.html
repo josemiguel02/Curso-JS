@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://www.giitic.com/img/software/js.png" type="image/x-icon">
+  <title>Eventos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <h1>Eventos 🚀</h1>
+
+    <div>
+      <h3>Buttons:</h3>
+      <button type="button" class="btn">Contador: 0</button>
+      <button type="button" class="btn btn--red">Cambiar color</button>
+    </div>
+
+    <div>
+      <h3>Inputs:</h3>
+      <input type="text" placeholder="Ingrese el texto" class="input">
+      <input type="text" placeholder="Ingrese el texto 2" class="input-2">
+      <p class="output"></p>
+      <p class="output-2"></p>
+    </div>
+
+    <div>
+      <h3>Checkboxes:</h3>
+      <label><input type="checkbox" class="checkbox-1" value="ReactJS">ReactJS</label><br>
+      <label><input type="checkbox" class="checkbox-2" value="VueJS">VueJS</label><br>
+      <label><input type="checkbox" class="checkbox-3" value="AngularJS">AngularJS</label>
+      <pre class="checkbox-out"></pre>
+    </div>
+
+    <div>
+      <h3>RadioButtons:</h3>
+      <label><input type="radio" name="color" class="radio-1" value="Amarillo">Amarillo</label><br>
+      <label><input type="radio" name="color" class="radio-2" value="Rojo">Rojo</label><br>
+      <label><input type="radio" name="color" class="radio-3" value="Azul">Azul</label><br>
+      <p class="radio-out"></p>
+    </div>
+
+    <div>
+      <h3>Selects:</h3>
+      <select class="select">
+        <option selected hidden>Selecciona un lenguaje</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="TypeScript">TypeScript</option>
+        <option value="Python">Python</option>
+        <option value="PHP">PHP</option>
+      </select>
+      <p class="select-out"></p>
+    </div>
+
+    <div>
+      <h3>Forms:</h3>
+      <form action="#" class="form">
+        <label class="form-label">
+          Nombre:
+          <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="input-3">
+        </label>
+        <label class="form-label">
+          Apellido:
+          <input type="text" name="apellido" placeholder="Ingresa tu apellido" class="input-4">
+        </label>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+      <pre class="form-out"></pre>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "course-js",
+    "from scratch"
+  ],
+  "author": "José Domínguez Pérez <josemidev24@gmail.com>",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio_14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "José Domínguez Pérez <josemidev24@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

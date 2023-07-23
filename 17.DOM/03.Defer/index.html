@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://www.giitic.com/img/software/js.png" type="image/x-icon">
+  <title>Defer</title>
+  <!--
+    El atributo defer indica al navegador que no espere por el script.
+    En lugar de ello, debe seguir procesando el HTML, construir el DOM.
+    El script carga “en segundo plano” y se ejecuta cuando el DOM esta completo.
+
+    Es como cargar el script de manera asíncrona, por lo tanto ya no es necesario
+    colocar la etiqueta al final del body.
+  -->
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <h1 id="titulo">Atributo defer</h1>
+</body>
+</html>

@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #fff;
+  font-family: 'Roboto';
+  background-color: rgb(25, 25, 65);
+}
+
+.container {
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  margin: 1em;
+  padding: 0.8em 2em;
+  font-family: inherit;
+  font-weight: bold;
+  color: #fff;
+  border: 2px solid lightgreen;
+  border-radius: 8px;
+  background-color: #fff1;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  transition-property: background-color, box-shadow;
+}
+
+.btn:hover {
+  background-color: lightgreen;
+  box-shadow: 2px 2px 20px rgba(144, 238, 144, 0.582);
+}
+
+.btn:active {
+  outline: 2px solid lightgreen;
+  outline-offset: 3px;
+}
+
+.btn--red {
+  border-color: crimson;
+}
+
+.btn--red:hover,
+.btn--red:active {
+  box-shadow: 2px 2px 20px rgba(220, 20, 60, 0.486);
+  background-color: crimson;
+}
+
+.btn--red:active {
+  outline: 2px solid crimson;
+  outline-offset: 3px;
+}
+
+label[class='form-label'] {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+input[type='text'],
+select {
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  background-color: #bccfcf;
+}
+
+input[type='text']:focus,
+select:focus {
+  outline: 2px solid aqua;
+  outline-offset: 3px;
+}
+
+label[class='form-label'] input {
+  margin-left: 0.5rem;
+}
+
+input[type='checkbox'] {
+  accent-color: gold;
+}
+
+input[type='radio'] {
+  accent-color: purple;
+}
+
+.output,
+.output-2,
+.checkbox-out,
+.radio-out,
+.select-out,
+.form-out {
+  opacity: 0.8;
+  background-color: #323264;
+  padding: 0.4rem;
+  width: fit-content;
+  border-radius: 4px;
+}

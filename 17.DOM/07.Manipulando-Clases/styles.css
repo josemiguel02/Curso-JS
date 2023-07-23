@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 3rem;
+  color: #fff;
+  font-family: 'Roboto';
+  background-color: rgb(25, 25, 65);
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+button {
+  border: 2px solid transparent;
+  padding: 0.8rem 2rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: crimson;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  transition-property: color, background-color, border-color;
+}
+
+button:hover {
+  color: crimson;
+  background-color: #fff1;
+  border-color: crimson;
+}
+
+button:active {
+  outline: 2px solid crimson;
+  outline-offset: 3px;
+}
+
+.caja {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  color: #181818;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  background-color: lightgreen;
+}
+
+.ocultar {
+  display: none;
+}

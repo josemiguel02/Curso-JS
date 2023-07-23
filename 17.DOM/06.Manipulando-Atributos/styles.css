@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0 3rem;
+  color: #fff;
+  font-family: 'Roboto';
+  background-color: rgb(25, 25, 65);
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+button {
+  border: 2px solid transparent;
+  padding: 0.8rem 2rem;
+  font-family: inherit;
+  font-weight: bold;
+  color: #272727;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color: cyan;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  transition-property: color, background-color, border-color;
+}
+
+button:hover {
+  color: cyan;
+  background-color: #fff1;
+  border-color: cyan;
+}
+
+button:active {
+  outline: 2px solid cyan;
+  outline-offset: 3px;
+}
+
+#output {
+  opacity: 0.8;
+  background-color: #323264;
+  padding: 0.8rem;
+  width: fit-content;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+code {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
